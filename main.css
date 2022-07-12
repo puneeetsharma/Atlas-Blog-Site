@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    background-color: rgb(234, 236, 236);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 56px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .navbar a {
+    float: left;
+    display: flex;
+    color: #000000;
+    text-align: center;
+    font-family: comic Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 10px 30px;
+    padding-right: 5px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+
+}
+ .nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:120%;
+
+}
+.rightNav{
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  text-align: right;
+  padding: 15px;
+}
+
+.navbar img{
+    width: 70%;
+    padding-left: 20px;
+}
+
