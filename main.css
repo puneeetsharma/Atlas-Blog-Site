@@ -17,6 +17,7 @@ body {
     width: 70%;
     margin: auto;
     border-radius: 10px;
+    z-index: 1
 }
 
 .navbar a {
@@ -50,8 +51,9 @@ body {
 
 .nav-list li a:hover {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 120%;
+    color: rgb(207, 22, 139);
+    transition: 0.7s ease;
+    
 
 }
 
@@ -70,7 +72,6 @@ body {
 .previousreads {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    position: sticky;
     display: flex;
     top: 0;
     align-items: center;
@@ -81,6 +82,7 @@ body {
     border-radius: 10px;
     margin-top: 56px;
     font-family: comic Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .primages img {
@@ -115,12 +117,11 @@ body {
     color: rgb(148, 164, 164);
 }
 
-.hero{
+.hero {
     overflow: hidden;
-    
-    position: sticky;
+
     top: 0;
-    height: 100vh;
+    height: 75vh;
     width: 70%;
     margin: auto;
     display: flex;
@@ -129,7 +130,7 @@ body {
     font-family: comic Arial, Helvetica, sans-serif;
 }
 
-.card{
+.card {
     background-image: url(img/pr8.jpg);
     background-size: 100% 100%;
     width: 257px;
@@ -141,7 +142,7 @@ body {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
-.card1{
+.card1 {
     background-image: url(img/pr8.jpg);
     background-size: 100% 100%;
     width: 257px;
@@ -153,7 +154,7 @@ body {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
-.card2{
+.card2 {
     background-image: url(img/pr14.jpg);
     background-size: 100% 100%;
     width: 257px;
@@ -165,7 +166,7 @@ body {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
-.card3{
+.card3 {
     background-image: url(img/pr13.jpg);
     background-size: 100% 100%;
     width: 257px;
@@ -177,7 +178,7 @@ body {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
-.card4{
+.card4 {
     background-image: url(img/pr15.jpg);
     background-size: 100% 100%;
     width: 257px;
@@ -188,7 +189,8 @@ body {
     margin-bottom: 10px;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
-.carddetail{
+
+.carddetail {
     position: absolute;
     bottom: 21px;
     right: 0;
@@ -196,16 +198,18 @@ body {
     color: white;
     font-size: 15px;
 }
-.cardtagdiv{
+
+.cardtagdiv {
     background-color: blueviolet;
     position: absolute;
     bottom: 76px;
-    left : 23px;
+    left: 23px;
     border-radius: 5px;
     padding: 4px;
     color: white;
     font-size: 11px;
 }
+
 .cardtime {
     padding-top: 0px;
     margin-top: 3px;
@@ -214,10 +218,10 @@ body {
     color: white;
     position: absolute;
     bottom: 10px;
-    left : 23px;
+    left: 23px;
 }
 
-.maincard{
+.maincard {
     background-image: url(img/pr9.jpg);
     background-size: 100% 100%;
     width: 517px;
@@ -227,15 +231,15 @@ body {
     position: relative;
 }
 
-.leftcards{
+.leftcards {
     padding-right: 10px;
 }
 
-.rightcards{
+.rightcards {
     padding-left: 10px;
 }
 
-.maincarddetail{
+.maincarddetail {
     position: absolute;
     bottom: 21px;
     right: 0;
@@ -243,16 +247,18 @@ body {
     color: white;
     font-size: 27px;
 }
-.maincardtagdiv{
+
+.maincardtagdiv {
     background-color: rgb(138, 35, 235);
     position: absolute;
     bottom: 118px;
-    left : 30px;
+    left: 30px;
     border-radius: 5px;
     padding: 5px;
     color: white;
     font-size: 15px;
 }
+
 .maincardtime {
     padding-top: 0px;
     margin-top: 3px;
@@ -261,5 +267,34 @@ body {
     color: white;
     position: absolute;
     bottom: 10px;
-    left : 30px;
+    left: 30px;
 }
+
+.footer {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    top: 0;
+    align-items: center;
+    cursor: pointer;
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: comic Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.footerlogo{
+    width: 106px;
+    padding-left: 290px;
+}
+.footerlogo img{
+    width: 100px;
+}
+.copyright{
+    padding-right: 232px;
+    width: 418px;
+}
+
