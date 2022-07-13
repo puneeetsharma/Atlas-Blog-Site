@@ -1,6 +1,6 @@
 # Atlas-Blog-Site
 
-##For Desktop Device
+## For Desktop Device
 
 ![image](https://user-images.githubusercontent.com/82327479/178805462-a2fa47e8-075f-4061-985f-0956b779c834.png)
 
